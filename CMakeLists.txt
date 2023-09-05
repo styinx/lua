@@ -106,25 +106,17 @@ link_directories(${LIBRARY_DIRECTORIES})
 # Sources
 
 set(SOURCES
-    lutf8lib.c
     lvm.c
     lzio.c
     lapi.c
     lcode.c
-    lcorolib.c
-    lctype.c
     ldebug.c
     ldo.c
-    ldump.c
     lfunc.c
     lgc.c
-    linit.c
     llex.c
     lmem.c
-    loadlib.c
     lobject.c
-    lopcodes.c
-    loslib.c
     lparser.c
     lstate.c
     lstring.c
@@ -143,7 +135,6 @@ set(SOURCES_LIB
     liolib.c
     lmathlib.c
     lstrlib.c
-    ltablib.c
 )
 
 set(SOURCES_LUAC
