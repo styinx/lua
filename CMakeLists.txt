@@ -129,12 +129,11 @@ set(SOURCES
     lstate.c
     lstring.c
     ltable.c
-    ltablib.c
     ltests.c
     ltm.c
-    lua.c
-    lua.lib
     lundump.c
+	lvm.c
+	lzio.c
 )
 
 set(SOURCES_LIB
@@ -144,6 +143,7 @@ set(SOURCES_LIB
     liolib.c
     lmathlib.c
     lstrlib.c
+    ltablib.c
 )
 
 set(SOURCES_LUAC
